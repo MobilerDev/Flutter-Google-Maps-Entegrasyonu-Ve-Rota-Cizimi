@@ -92,7 +92,7 @@ class _MapsState extends State<Maps> {
     List<LatLng> polylineCoordinates = [];
 
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyCzFlbNYhBQBRb8zDQsrgVj0TazijIqlpA",
+      "API anahtarın",
       PointLatLng(_originLatitude, _originLongitude),
       PointLatLng(_destLatitude, _destLongitude),
       travelMode: TravelMode.driving,
